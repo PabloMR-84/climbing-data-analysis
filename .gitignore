@@ -4,10 +4,13 @@ venv/
 env/
 
 # --- Data & Figures (Professional approach) ---
-# We ignore all contents inside data, but keep the folder structure
-data/**/*
+# Ignore absolutely everything inside the data folder
+data/*
 
-# Exceptions: Allow .gitkeep files so folders are tracked by Git
+# EXCEPTION: Do not ignore subdirectories inside data (to maintain structure)
+!data/**/
+
+# EXCEPTION: Explicitly allow .gitkeep files
 !data/**/.gitkeep
 
 # --- Python / Jupyter ---
