@@ -15,7 +15,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 TEST.ipynb
-eda_tests.ipynb
+eda_test.ipynb
 data_discovery_backup.ipynb
 
 # --- System / IDE ---
