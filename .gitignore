@@ -1,0 +1,28 @@
+# --- Environment ---
+.venv/
+venv/
+env/
+
+# --- Data & Figures (Professional approach) ---
+# We ignore all contents inside data, but keep the folder structure
+data/**/*
+
+# Exceptions: Allow .gitkeep files so folders are tracked by Git
+!data/**/.gitkeep
+
+# --- Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+TEST.ipynb
+eda_tests.ipynb
+data_discovery_backup.ipynb
+
+# --- System / IDE ---
+.vscode/
+.DS_Store
+*.log
+
+# --- Personal Notes ---
+instrucciones.txt
+README_plantilla.md
