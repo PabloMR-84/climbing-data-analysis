@@ -13,6 +13,14 @@ data/*
 # EXCEPTION: Explicitly allow .gitkeep files
 !data/**/.gitkeep
 
+# --- Global File Extensions (Safety net) ---
+# Prevent accidental uploads of data or media files anywhere in the project
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+
 # --- Python / Jupyter ---
 __pycache__/
 *.pyc
