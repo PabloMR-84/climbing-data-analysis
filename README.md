@@ -67,8 +67,8 @@ Follow these steps to set up the environment and execute the pipeline:
 
 1. **Clone the repository and navigate to the project folder**:
    ```bash
-   git clone <your-repository-link>
-   cd <project-folder-name>
+   git clone https://github.com/PabloMR-84/climbing-data-analysis.git
+   cd climbing-data-analysis
    ```
 
 2. **Create and activate a virtual environment**:
